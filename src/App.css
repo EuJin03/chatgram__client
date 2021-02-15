@@ -1,0 +1,34 @@
+.home__title {
+  display: block !important;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.home__createPost {
+  padding: 15px;
+}
+
+.card {
+  margin-top: 20px !important;
+  box-shadow: none !important;
+}
+
+.register {
+  width: 500px;
+  margin: auto;
+}
+
+.login {
+  width: 500px;
+  margin: auto;
+}
+
+.ui.divided.grid:not([class*="vertically divided"]) > .row > .column {
+  box-shadow: none !important;
+}
+
+.ui.teal.button:focus,
+.ui.teal.buttons > .button:focus {
+  background-color: #00b5ad;
+}
